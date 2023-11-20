@@ -1,0 +1,123 @@
+<!--Código do meu repositório das aulas de HTML5 e CSS3-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Repo.ico" type="image/x-icon">
+    <title>Repositório</title>
+    <!--O Style das caixas de texto//os div-->
+    <style>
+        .div_texto{
+  /*Distancia entre um bloco e outro*/ 
+  margin: 14px;
+
+  /*Tamanho e cor da borda dos textos*/ 
+  border:4.6px solid rgb(38, 38, 39);
+
+  /*Define o tamanho das caixas //define o tamanho dos elementos// */ 
+  inline-size: 20cm;
+
+  /*Sombra em volta das caixas*/ 
+  box-shadow: 0 0 30px 6px rgb(71, 68, 73);
+
+  /*O quanto uma caixa vai ser arredondada nas pontas*/ 
+  border-radius: 30px;
+
+  /*cor de fundo das caixas*/ 
+  background-color: #e4e4e4;
+
+  /*Centraliza o texto das caixas*/ 
+  text-align: center;
+
+  /*Distância da margem da página*/ 
+  margin-left: 8cm;
+  margin-right: 8cm;
+
+  /*Define a fonte dos textos*/ 
+  font-family: Roboto, sans-serif;
+ }
+    </style>
+</head>
+<!-- Cor do fundo da página-->
+     <body style="background-image: linear-gradient(to bottom, #474747, #000000); border:12px solid  white; padding: 8px; border-radius:1cm;">
+
+        <!--O primeiro texto "Repositório das aulas de HTML E CSS"-->
+    <h1 style="margin: auto; width: 50%;inline-size: 13.3cm;  font-family: Cambria; border: 2px #000 solid; border-radius: 6px; background-color: white; border-width: 0.2px;">Repositório das aulas de Html-CSS</h1>
+
+    <!--O link :)-->
+    <p style="border: 2px white solid; inline-size: 1.57cm;background-color: #a7a7a7 ; font-size: 0.7cm; font-style: oblique ; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; "><a href="index.html">Links</a></p>
+
+    <!--Segundo titulo "Estrutura básica do HTML5"-->
+    <h2 style="text-align: center; font-size: 30px;color: white; ">Estrutura básica do HTML5</h2>
+
+    <!--Borda do código exemplo-->
+    <p ><pre style="font-size: 20px; text-align: center;border: rgb(38, 38, 39) solid; border-radius: 1cm; color: black; inline-size: 20cm;margin: auto; width: 50%; background-color: #a7a7a7; border-width: 5px; box-shadow: 0 0 30px 10px rgb(71, 68, 73)">
+    <!--Código exemplo-->
+    &lt;!DOCTYPE html&gt;
+ &lt;html&gt;
+    &lt;head&gt;
+    &lt;title&gt;TITULO GERAL&lt;/title&gt;
+    &lt;/head&gt;
+      &lt;body&gt;
+    &lt;h1&gt;TITULO&lt;/h1&gt;
+    &lt;p&gt;PARÁGRAFO&lt;/p&gt;
+      &lt;/body&gt;
+&lt;/html&gt;
+        </pre></p>
+
+     <!--Os textos explicativos-->  
+
+     <!--Primeira caixa-->
+<div class="div_texto">
+    <h1>Hierarquia de títulos</h1>
+    <h2>Cuidado com a Hierarquia</h2>
+    <!--"Hierarquia dos títulos" e o estilo do texto da primeira caixa-->
+   <p style="font-size: 20px; font-family: 'Franklin Gothic Medium';">Os títulos vão de h1 até h6, sempre seguir a ordem de 1 a 6, <strong>NUNCA</strong> pular a ordem. Como exemplo, ir do h1 para o h4 é incorreto. Sempre seguir a ordem: h1, h2, h3, h4, h5 e h6. Não existe h0 e nem maior que h6.</p>
+    </div>
+    
+    <!--Segunda caixa-->
+    <div class="div_texto">
+   <h1>HTML</h1>
+   <h2>Semântica</h2>
+   <!--"O que o HTML5 segue" e o estilo das letras do texto-->
+   <p style="font-size: 20px; font-family: 'Franklin Gothic Medium';">Html5 foca em Semântica, Significados, palavras.
+    <br>''O HTML5 foca em usar tags que têm um significado claro, de modo que os navegadores e outros agentes de usuário possam interpretar o conteúdo das páginas da web de forma mais precisa.''</br></p>
+    </div>
+
+    <!--Terceira caixa-->
+    <div class="div_texto">
+
+    <!--Negrito e Itálico-->
+   <h1>Destaques dos textos</h1>
+   <p style="font-size: 20px; font-family: 'Franklin Gothic Medium';">Para colocar um texto em negrito use a tag (strong). A tag (b) poderá se tornar obsoleta no futuro.
+    E para colocar um texto em itálico use a tag (em). A tag (i) também pode se tornar obsoleta.</p>
+
+    <!--Explicando tags que podem se tornar obsoletas e para que serve a tag <strong> e a <em>-->
+    <p>As tags &lt;b&gt; e &lt;i&gt; são tags semânticas, o que significa que elas têm um significado específico. No entanto, o HTML5 recomenda o uso de tags semânticos mais específicas para formatar texto. Por exemplo, a tag &lt;strong&gt; é usada para enfatizar texto, enquanto a tag &lt;em&gt; é usada para indicar palavras ou frases que são importantes ou relevantes.</p>
+
+    <!--Exemplo de NEGRITO E ITÁLICO--> 
+   <p style="font-size: 20px;font-family:'Courier New';"><strong>Esta frase está em negrito.</strong> </p> <p style="font-size: 20px;font-family:'Courier New';"><em> Esta frase está em itálico.</em></p>
+   <p>Usei fontes diferentes para maior compreensão.</p>
+    </div>
+
+    <!--Como colocar imagens-->
+    <div class="div_texto">
+    <h1>Como Colocar imagens</h1>
+    <p style="font-size: 20px; font-family: 'Franklin Gothic Medium';">Use a tag <strong>&lt;img src=</strong><em>"Coloque aqui a imagem que está em seu hd ou um link da imagem"</em> <strong>alt=</strong> <em>"aqui fica o texto alternativo. Ele é usado para pessoas com deficiência ou quando a imagem não carrega"</em><strong>&gt;</strong></p>
+    <p><strong><u>Foto exemplo:</u></strong></p>
+
+    <img src="img.jpg" alt="">
+    </div>
+    <div class="div_texto">
+      <h1>Proximo título</h1>
+<p>aaa</p>
+
+
+
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
